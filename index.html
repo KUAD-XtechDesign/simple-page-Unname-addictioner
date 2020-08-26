@@ -1,27 +1,52 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" dir="ltr">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>smple page</title>
-    <link rel="stylesheet" href="./style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>shiraSP2index</title>
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
   </head>
-  <body>
-    <div id="container">
-      <div class="info">
-        <div class="name">山本健太</div>
-        <div class="txt">
-          Hello World！<br>
-          これが初めてのページです。このページは練習用のページですのでポートフォリオとは関係ありません。<br>
-          私がよく見るサイトは<a href="http://youtube.com" target='_blank'>YouTube</a>です。
+
+  <body class='index_page'>
+    <div id='wrapper'>
+      <header>
+        <nav id='main_nav'>
+          <ul>
+            <li><span>Home</sapn></li>
+            <li><a href="./subjects/swnwb1.html">SwNwBasis:1</a></li>
+            <li><a href="./cv.html">CV</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h1>白石の学習進捗ページ</h1>
+        <p class="main_pic"><img src="./assets/images/main.jpg" alt=""></p>
+        <h2>履修科目</h2>
+        <div class="period">
+          <h3>前期</h3>
+          <ol>
+            <li><a href="./subjects/swnwb1.html">ソフトウェアネットワーク演習Ⅰ</a></li>
+          </ol>
         </div>
-      </div>
-      <div class="btns">
-        <a class="prev btn" href="./practice.html">prev</a>
-        <a class="next btn" href="./namecard.html">next</a>
-        
-      </div>
+        <div class="period">
+          <h3>後期</h3>
+          <ol>
+            <li>ソフトウェアネットワーク演習Ⅱ</li>
+            <li>クロステックデザイン演習Ⅲ</li>
+          </ol>
+          <h2><a href="./cv.html">自己紹介</a></h2>
+        </div>
+      </main>
+
+      <footer>
+        <p>KUAD クロステックデザインコース 2019</p>
+      </footer>
 
     </div>
   </body>
+
 </html>
