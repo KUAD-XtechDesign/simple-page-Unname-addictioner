@@ -52,7 +52,7 @@ ul,ol{
 header
 ======================================================*/
 header {
-    border-bottom: 1px solid #000000;
+    border-bottom: 10px groove #000000;
     background-color: #000000;
     position:relative;
 }
@@ -120,6 +120,7 @@ main{
     margin: 0 auto;
     position: relative;
     z-index: 0;
+background-color: #575757;
 }
 
 @media screen and (max-width:480px) { 
