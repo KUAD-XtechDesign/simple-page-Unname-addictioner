@@ -1,7 +1,7 @@
 /* body{
     font-family: Meiryo,sans-serif;
     font-weight: bold;
-    color: #00ff00;
+    color: #FF00FF;
     letter-spacing: 5px;
     line-height: 2;
 } */
@@ -87,12 +87,12 @@ header {
 
 #main_nav li a:hover,
 #main_nav li span{
-    color:#e2970c;
+    color:#FF00FF;
     
 }
 
 #main_nav li span{
-    border-bottom: 3px solid #e2970c;
+    border-bottom: 3px solid #FF00FF;
 }
 
 
