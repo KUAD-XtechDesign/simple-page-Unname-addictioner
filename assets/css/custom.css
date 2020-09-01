@@ -9,7 +9,7 @@
 
 h1{
     font-size: 18px;
-    border-left: #e2970c solid 5px;
+    border-left: #FF00FF solid 5px;
     padding-left: 5px;
     margin-bottom:20px;
 }
@@ -53,7 +53,7 @@ header
 ======================================================*/
 header {
     border-bottom: 1px solid #ddd;
-    background-color: #fcfcfc;
+    background-color: #000000;
     position:relative;
 }
 
