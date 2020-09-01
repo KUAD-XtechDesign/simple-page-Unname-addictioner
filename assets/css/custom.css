@@ -63,7 +63,6 @@ header {
        width:100%;
        top:0;
        z-index: 1;
-    }
 
 
 #main_nav{
@@ -119,7 +118,7 @@ main{
     margin: 0 auto;
     position: relative;
     z-index: 0;
-background-color: #575757;
+background-color: #000000;
 }
 
 @media screen and (max-width:480px) { 
