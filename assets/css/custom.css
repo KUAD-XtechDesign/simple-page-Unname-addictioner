@@ -137,7 +137,7 @@ main{
 .sub_pic{
     display:inline-block;
     padding: 10px;
-    border: 1px solid #575757;
+    border: 1px solid #f6f6fb;
 }
 
 .sub_pic img{
