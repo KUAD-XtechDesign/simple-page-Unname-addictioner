@@ -52,7 +52,7 @@ ul,ol{
 header
 ======================================================*/
 header {
-    border-bottom: 10px groove #000000;
+    border-bottom: 10px groove #343232;
     background-color: #000000;
     position:relative;
 }
