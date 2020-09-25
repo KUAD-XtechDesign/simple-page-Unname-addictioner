@@ -1,0 +1,18 @@
+
+body{
+  background-color: #DCDCDC;
+  /* background-image: url(../images/back.png);
+  background-repeat: repeat;
+  background-size: 20px 20px; */
+}
+
+.wrapper{
+  width: 1000px;
+  background-color: #fff;
+  margin: 30px auto;
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+}
