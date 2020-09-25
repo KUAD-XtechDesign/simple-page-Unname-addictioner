@@ -1,0 +1,16 @@
+
+body{
+    background-color:#dcdcdc;
+
+}
+
+.wrapper{
+    width:1000px;
+    background-color:#fff;
+    margin:30px auto;
+    text-align:center;
+}
+
+img{
+    max-width:100%;
+}
