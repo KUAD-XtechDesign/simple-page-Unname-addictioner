@@ -5,7 +5,7 @@ $(function(){
     $(".btn").on("click",()=>{
         $("#slide").slideToggle();
     })
-    $('.autoplay').slick({
+    $(".autoplay").slick({
         slidesToShow: 3,
         slidesToScroll: 1,    
         autoplay: true,
